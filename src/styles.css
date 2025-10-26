@@ -71,7 +71,7 @@ header > div > a {
   height: 34px;
   border-radius: 8px;
   border: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,4 +86,29 @@ header > div > a {
 .linkedin-button > img {
   width: 16px;
   margin-right: 8px;
+}
+
+main {
+  width: 247px;
+  margin-left: 36px;
+}
+
+main > h1 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+  margin-top: 18px;
+}
+
+.about-title {
+  margin-top: 33px;
+}
+
+main > p {
+  font-weight: 200;
+  font-size: 0.64rem;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  margin: 0;
 }
