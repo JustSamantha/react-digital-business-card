@@ -112,3 +112,24 @@ main > p {
   letter-spacing: 0.2px;
   margin: 0;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161619;
+  height: 64px;
+  margin-top: 35px;
+}
+
+footer > a {
+  margin-left: 24px;
+}
+
+footer > a > img {
+  width: 25px;
+}
+
+.twitter-link {
+  margin: 0;
+}
